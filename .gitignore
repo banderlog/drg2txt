@@ -1,0 +1,8 @@
+__pycache__
+.mypy_cache
+.ipynb_checkpoints
+*.swp
+venv
+create_wheel/*
+!create_wheel/setup.py
+!create_wheel/MANIFEST.in
