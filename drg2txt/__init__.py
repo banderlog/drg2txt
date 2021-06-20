@@ -10,16 +10,16 @@ with importlib.resources.path(package_name, "data.pickle") as f_path:
 
 
 def get_drg_description(drg: int) -> str:
-    return drg_descr[drg]
+    return drg_descr.get(drg)
 
 
 def get_mdc_code(drg: int) -> int:
-    return drg_mdc[drg]
+    return drg_mdc.get(drg)
 
 
 def get_mdc_description(mdc: int) -> str:
-    return mdc_descr[mdc]
+    return mdc_descr.get(mdc)
 
 
 def get_drg_mdc_description(drg: int) -> str:
-    return mdc_descr[drg_mdc[drg]]
+    return mdc_descr.get(drg_mdc.get(drg))
