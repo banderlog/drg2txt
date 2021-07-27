@@ -1,5 +1,9 @@
 # drg2txt
 
+[![Downloads](https://pepy.tech/badge/drg2txt)](https://pepy.tech/project/drg2txt)
+[![Downloads](https://pepy.tech/badge/drg2txt/month)](https://pepy.tech/project/drg2txt)
+[![Downloads](https://pepy.tech/badge/drg2txt/week)](https://pepy.tech/project/drg2txt)
+
 Mapper for DRG/MDC numeric codes to their text description.
 Uses  [MS-DRG v38.1](https://www.cms.gov/icd10m/version38-1-fullcode-cms/fullcode_cms/P0001.html).
 
